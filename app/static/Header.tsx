@@ -2,8 +2,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import { BsHammer } from "react-icons/bs";
-import { FaHamburger } from "react-icons/fa";
 import { GiCancel, GiHamburgerMenu } from "react-icons/gi";
 
 const Header = () => {
