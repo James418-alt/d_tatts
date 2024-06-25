@@ -19,7 +19,7 @@ const Header = () => {
             height={100}
           ></Image>
         </div>
-        <div className="md:visible lg:hidden">
+        <div>
           {show ? (
             <GiHamburgerMenu
               onClick={() => {
@@ -35,21 +35,6 @@ const Header = () => {
               className="text-white w-10 h-10"
             />
           )}
-        </div>
-
-        <div className="flex gap-[130px] md:hidden lg:visible sm:hidden ">
-          <div className="text-white text-[23px] font-sans flex gap-10 items-center">
-            <Link href={"/"}>Home</Link>
-            <Link href={"/ourwork"}>Some of our Works</Link>
-            <Link href={"/policies"}>Policies</Link>
-          </div>
-
-          <Link
-            href={"/theform"}
-            className="bg-inherit border-[3px] border-white p-[20px] rounded-md text-white font-bold font-sans hover:bg-white hover:text-[#7f6748]"
-          >
-            Request an Appointment
-          </Link>
         </div>
       </div>
 
